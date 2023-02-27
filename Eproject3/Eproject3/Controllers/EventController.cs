@@ -47,7 +47,7 @@ namespace Eproject3.Controllers
 
         //GET: Event/Create
 
-        public IActionResult Create()
+        public IActionResult Creates()
         {
             return View(new EventViewModel(db.Labs.ToList()));
         }
